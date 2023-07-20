@@ -89,5 +89,5 @@ jobs:
             $gh_add_ado_comments=$true
           }
           
-          ./ado_workitems_to_github_issues.ps1 -ado_pat "qxmkfpxoj6nsgntzisox7cs4ocjutw34muiibvl33hkltifc2qga" -ado_org "POCHCLTEAM" -ado_project "DemoHCLProject" -ado_area_path "${{ github.event.inputs.ado_area_path }}" -ado_migrate_closed_workitems $ado_migrate_closed_workitems -ado_production_run $ado_production_run -gh_pat "${{ steps.get_installation_token.outputs.token }}" -gh_org "devidayalhclteam" -gh_repo "ado_workitems_to_github_issues" -gh_update_assigned_to $gh_update_assigned_to -gh_assigned_to_user_suffix "${{ github.event.inputs.gh_assigned_to_user_suffix }}" -gh_add_ado_comments $gh_add_ado_comments
+          ./ado_workitems_to_github_issues.ps1 -ado_pat "ws6zgaol6nj4lgcqenakbjdunwbgsifovp5zzpk6fcipt3y5q77q" -ado_org "POCHCLTEAM" -ado_project "DemoHCLProject" -ado_area_path "${{ github.event.inputs.ado_area_path }}" -ado_migrate_closed_workitems $ado_migrate_closed_workitems -ado_production_run $ado_production_run -gh_pat "${{ steps.get_installation_token.outputs.token }}" -gh_org "devidayalhclteam" -gh_repo "ado_workitems_to_github_issues" -gh_update_assigned_to $gh_update_assigned_to -gh_assigned_to_user_suffix "${{ github.event.inputs.gh_assigned_to_user_suffix }}" -gh_add_ado_comments $gh_add_ado_comments
           
