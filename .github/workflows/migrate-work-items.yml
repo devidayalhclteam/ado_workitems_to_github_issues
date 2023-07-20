@@ -14,7 +14,7 @@ on:
       ado_area_path:
         description: 'ADO area path to migrate - uses the UNDER operator'
         required: true
-        default: 'DemoHCLProject/DevArea'
+        default: 'DemoHCLProject\DevArea'
       ado_migrate_closed_workitems:
         description: 'Migrate closed work items'
         required: true
